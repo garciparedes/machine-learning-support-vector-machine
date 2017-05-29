@@ -12,7 +12,7 @@
 
 \usepackage[inline]{enumitem}
 
-\usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry}
+\usepackage[margin={20mm, 22mm}]{geometry}
 \usepackage[hang, small,labelfont=bf,up,textfont=it,up]{caption}
 
 \usepackage{float}
@@ -60,3 +60,8 @@
 \fancyfoot{}
 \fancyhead[C]{ \today \ $\bullet$ \mysubject $\bullet$ \mytitle }
 \fancyfoot[RO]{\thepage}
+\fancypagestyle{firststyle}
+{
+\fancyhead[C]{}
+\fancyfoot[RO]{\thepage}
+}
